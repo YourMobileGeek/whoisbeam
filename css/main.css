@@ -1,0 +1,68 @@
+/* www.alsina.xyz | Alchemically bonded by Sebastian Alsina (@youngseebi) */
+
+
+/* [==] COLORS [==]
+ * 1:
+ * 2:
+ * 3:
+ * 4:
+*/
+
+
+/* [==] FONTS [==]*/
+
+
+/*
+ * [==] General [==]
+*/
+
+html,
+body {
+    /* height: 100%; */
+    /* width: 100%; */
+    font-family: sans-serif;
+    overflow: hidden;
+    background-image: url('http://bestanimations.com/Humans/Skeletons/skeleton-animated-gif-11.gif');
+    /* background-size: cover; */
+}
+
+a {
+    color: white;
+}
+
+.vid-bg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background: url('/assets/images/polina.jpg') no-repeat;
+    background-size: cover;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 99;
+    bottom: 100px;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.footer img {
+    width: 100%;
+    height: 100%;
+    max-width: 100px;
+    margin-bottom: -50px;
+}
+
+
+.footer a {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-width: 768px) {}

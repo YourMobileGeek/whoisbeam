@@ -73,12 +73,21 @@
 </head>
 
 <body>
-         <!-- <video autoplay loop style="width: 1%;height: 1%;">
-            <source src="music/chat_bout.mp4" loop="true" autostart="true" hidden="true" type="video/mp4"> 
-        </video> --> 
-    
+
+    <iframe id="video" src="https://www.youtube-nocookie.com/embed/WdwHuCcJ3Yg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+<script>
+$(function() {
+  $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+
+  // If you want to keep full screen on window resize
+  $(window).resize(function(){
+    $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+  });
+});
+</script>
+
     <div class="footer">
-        <center><iframe width="55%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/325885830&amp;color=ff5500&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe> </center>
         <center><a href="https://twitter.com/whoisbeam" target="_blank"><img src="img/whitebeam.png" alt=""> </a></center>
     </div>
     

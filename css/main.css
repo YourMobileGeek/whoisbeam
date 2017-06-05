@@ -22,9 +22,18 @@ body {
     /* width: 100%; */
     font-family: sans-serif;
     overflow: hidden;
-    background-image: url('http://bestanimations.com/Humans/Skeletons/skeleton-animated-gif-11.gif');
+    margin: 0; 
+    padding: 0;
+    /* background-image: url('http://bestanimations.com/Humans/Skeletons/skeleton-animated-gif-11.gif'); */
     /* background-size: cover; */
 }
+
+video {
+
+    position: absolute;
+}
+
+
 
 a {
     color: white;
